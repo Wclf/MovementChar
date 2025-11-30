@@ -14,7 +14,7 @@ public class MovementConfig : ScriptableObject
     [Header("Nhảy & Trọng lực")]
     public float jumpForce = 5f;
     public float gravity = -9.81f;
-
+       
     [Header("Mặt đất")]
     public float groundCheckDistance = 0.2f;
     public LayerMask groundLayer;
